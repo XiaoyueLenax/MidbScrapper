@@ -73,8 +73,9 @@ Ensure you have the following installed on your system:
 
 3. **Run the Script**
 
-   Execute the script using Python:
+   Execute the script using ipynb interface.
 
+   Alternatively, use the python script.
    ```bash
    python scraper.py
    ```
