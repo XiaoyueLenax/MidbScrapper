@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/gene-classification-scraper.git
+   git clone https://github.com/XiaoyueLenax/MidbScrapper.git
    cd gene-classification-scraper
    ```
 
@@ -55,13 +55,23 @@ Ensure you have the following installed on your system:
 
 1. **Update Gene List**
 
-   Modify the `gene_names` list in `scraper.py` to include the genes you want to search for:
+   Modify the `gene_names` list in `main.ipynb` to include the genes you want to search for:
 
    ```python
-   gene_names = ["CDK4", "BRCA1", "TP53"]
+   gene_names = ["CDK4", "BRCA1", "TP53", "MAX"]
    ```
 
-2. **Run the Script**
+   If you wish to use a list of genes in Excel, you can add the following command, and adjust your path accordingly.
+   You would need package pandas for reading Excel files.
+
+   ```python
+   # Load gene names from an Excel file
+   def load_genes_from_excel(file_path):
+       df = pd.read_excel(file_path)
+       return df.iloc[:, 0].tolist()  # Assumes gene IDs are in the first column
+   ```
+
+3. **Run the Script**
 
    Execute the script using Python:
 
