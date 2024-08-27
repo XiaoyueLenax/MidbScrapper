@@ -1,5 +1,3 @@
-Certainly! Here's a sample `README.md` file for your web scraping tool. This README provides an overview of the project, its setup, usage, and additional information.
-
 ---
 
 # Gene Classification Web Scraper
