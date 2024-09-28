@@ -1,6 +1,10 @@
 ---
 
 # Gene Classification Web Scraper
+<div align="center">
+  <img src="https://github.com/XiaoyueLenax/MidbScrapper/blob/main/scraperlogo.png" alt="logo" width="200">
+</div>
+
 
 ## Overview
 
