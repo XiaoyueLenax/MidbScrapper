@@ -42,7 +42,7 @@ Ensure you have the following installed on your system:
    pip install -r requirements.txt
    ```
 
-   Create a `requirements.txt` file with the following content if it does not exist:
+   Create a `requirements.txt` file with the following content:
 
    ```
    selenium
