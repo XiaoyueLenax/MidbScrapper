@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project provides a Python script for scraping gene classification data from the MIDB database website. The script automates the process of searching for specific genes, navigating through search results, and extracting detailed classification information for each gene.
+This project provides a Python script for scraping gene classification data from the MIDB database website. The script automates the searching of specific genes, navigating through search results, and extracting detailed classification information for each gene. Currently in ipynb format to compartmentalize.
 
 ## Features
 
