@@ -96,12 +96,13 @@ Ensure you have the following installed on your system:
 
 ## Troubleshooting
 
-- **SSL Warning**: The script handles SSL warnings automatically. If you encounter issues, make sure ChromeDriver and Google Chrome versions match.
+- **SSL Warning**: The script handles SSL warnings automatically. If you happen to have issues, please make sure ChromeDriver and Google Chrome versions match.
 - **Element Not Found**: Ensure the XPaths used in the script match the current structure of the website. Update the XPaths in `scraper.py` if needed.
 
 ## Contributing
 
-If you would like to contribute to this project, please fork the repository and submit a pull request. Make sure to follow coding standards and include tests for any new features.
+This is a preliminary script and I would appreciate any feedback on additional features people might find useful.
+You can make pull requests if you wish to contribute to the project.
 
 ## License
 
@@ -113,5 +114,11 @@ For any questions or feedback, please contact:
 
 - **Xiaoyue Deng**: [xiaoyue.deng@unibe.ch](xiaoyue.deng@unibe.ch)
 - **GitHub**: [XiaoyueLenax](https://github.com/XiaoyueLenax)
+
+## Planned Future Features
+
+- [ ] Wrap script into an App.
+- [ ] Add features allowing selection of other features on MIDB website.
+- [ ] Add drag and drop file function as input.
 
 ---
